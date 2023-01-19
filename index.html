@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Document</title>
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__logo"></div>
+      <hr class="header__line">
+  </header>
+  <main class="content">
+    <section class="profile">
+      <img src="img/image.jpg" alt="жак" class="profile__avatar">
+      <div class="profile__info">
+        <nav class="profile__name">
+          <h1 class="profile__info-title">Жак-Ив Кусто</h1>
+          <button class="menu__open-popup" name="info-edit-button" type="button"></button>
+        </nav>
+        <p class="profile__info-subtitle">Исследователь океана</p>
+      </div>
+        <button class="profile__button">
+          <img class="profile__plus" src="img/krest.png" alt="кнопка">
+        </button>
+    </section>
+    <section class="elements">
+      <ul class="elements__element">
+        <li class="elements__rectangle">
+          <img src="img/karachaevsk.png" alt="карачаевск" class="elements__mask-group">
+          <div class="elements__content">
+            <p class="elements__text">Карачаево-Черкессия</p>
+            <button class="elements__like"> </button>
+          </div>
+          </li>
+            <li class="elements__rectangle">
+              <img src="img/gora.png" alt="гора" class="elements__mask-group">
+              <div class="elements__content">
+                <p class="elements__text">Гора</p>
+              <button class="elements__like"></button>
+              </div>
+            </li>
+            <li class="elements__rectangle">
+              <img src="img/dombay.png" alt="домбай" class="elements__mask-group">
+                <div class="elements__content">
+              <p class="elements__text">Домбай</p>
+              <button class="elements__like"> </button>
+                </div>
+            </li>
+            <li class="elements__rectangle">
+             <img src="img/gora.png" alt="Гора" class="elements__mask-group">
+                <div class="elements__content">
+             <p class="elements__text">Гора</p>
+             <button class="elements__like"> </button>
+                </div>
+            </li>
+            <li class="elements__rectangle">
+              <img src="img/karachaevsk.png" alt="карачаевск" class="elements__mask-group">
+                <div class="elements__content">
+              <p class="elements__text">Карачаевск</p>
+              <button class="elements__like"> </button>
+                </div>
+            </li>
+            <li class="elements__rectangle">
+              <img src="img/dombay.png" alt="домбай" class="elements__mask-group">
+                <div class="elements__content">
+              <p class="elements__text">Домбай</p>
+              <button class="elements__like"> </button>
+                </div>
+            </li>
+        </ul>
+    </section>
+  </main>
+  <footer class="footer">
+      <img src="img/footer.png" alt="эмблема" class="footer__img">
+  </footer>
+  <section class="popup">
+      <form class="popup__container ">
+          <button class="popup__close-button" type="button" name="close-button"></button>
+          <h3 class="popup__title">Редактировать профиль</h3>
+          <input class="popup__name" type="text" name="name" placeholder="Жак-Ив Кусто" value="" required>
+          <input class="popup__info" type="text" name="info" placeholder="Исследователь океана" value="" required>
+          <button class="popup__submit-button" type="submit" name="submit-button" value="">Сохранить</button>
+      </form>
+  </section>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>
