@@ -1,6 +1,6 @@
 const popupElement = document.querySelector('.popup');
 const popupCloseButtonElement = popupElement.querySelector('.popup__close-button');
-const popupOpenButtonElement = document.querySelector('.menu__open-popup');
+const popupOpenButtonElement = document.querySelector('.profile__open-popup');
 console.log(popupCloseButtonElement);
 console.log(popupOpenButtonElement);
 
