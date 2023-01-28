@@ -12,17 +12,17 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 910px) {
     .profile__info-subtitle {
        margin-left: 27px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 760px) {
     .profile__info-subtitle {
         font-size: 14px;
         line-height: 17px;
-        padding-bottom: 36px;
+        padding-bottom: 31px;
         margin: 0;
         align-self: center;
     }

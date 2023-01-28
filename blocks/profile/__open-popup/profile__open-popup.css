@@ -2,12 +2,14 @@
     width: 24px;
     height: 24px;
     margin: 0;
-    background-image: url("../../../img/Vector1.png");
+    background-image: url("../../../images/Vector.svg");
     box-sizing: border-box;
     border: 1px solid #fff;
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
+    align-self: center;
 }
 
 .profile__open-popup:hover {
@@ -16,7 +18,7 @@
 
 @media screen and (max-width: 400px) {
     .profile__open-popup {
-      background-image: url("../../../img/kar.png");
+      background-image: url("../../../images/Vector(1).svg");
       width: 18px;
       height: 18px;
     }

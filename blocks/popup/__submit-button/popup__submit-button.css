@@ -5,6 +5,13 @@
     height: 50px;
     margin-top: 48px;
     margin-bottom: 37px;
+    cursor: pointer;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border: 0;
 }
 
 .popup__submit-button:hover {
@@ -17,5 +24,7 @@
       margin-top: 45px;
       margin-bottom: 25px;
       height: 46px;
+      font-size: 14px;
+      line-height: 16px;
     }
 }

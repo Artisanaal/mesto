@@ -1,7 +1,7 @@
 .header__logo {
     width: 142px;
     height: 33px;
-    background-image: url("../../../img/Vector.png");
+    background-image: url("../../../images/Vector.png");
     background-repeat: no-repeat;
     margin-bottom: 41px;
 }
@@ -17,6 +17,6 @@
         width: 104px;
         height: 25px;
         margin-bottom: 32px;
-        background-image: url("../../../img/mestoo.png");
+        background-image: url("../../../images/mestoo.png");
     }
 }
