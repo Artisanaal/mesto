@@ -7,11 +7,11 @@ console.log(popupOpenButtonElement);
 const openPopup = function() {
   nameInput.value = titleProfile.textContent;
    jobInput.value = subtitleProfile.textContent;
-    popupElement.classList.add('popup__opened');
+    popupElement.classList.add('popup_opened');
 }
 
 const closePopup = function() {
-    popupElement.classList.remove('popup__opened');
+    popupElement.classList.remove('popup_opened');
 }
 
 popupOpenButtonElement.addEventListener('click', openPopup);

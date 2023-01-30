@@ -25,5 +25,6 @@
         padding-bottom: 31px;
         margin: 0;
         align-self: center;
+        max-width: 238px;
     }
 }
