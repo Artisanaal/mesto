@@ -1,4 +1,4 @@
-# Проект: Место  https://artisanaal.github.io/mesto/index.html
+# Проект: Место  https://artisanaal.github.io/mesto/.html
 
 ## Описание проекта:
 В этом проекте мы добавили больше функциональности с помощью JS,так же использовали CSS Grid Layout,БЭМ-методологию и сделали адаптивный сайт,
