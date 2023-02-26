@@ -17,66 +17,24 @@
       <div class="profile__info">
         <div class="profile__name">
           <h1 class="profile__info-title">Жак-Ив Кусто</h1>
-          <button class="profile__open-popup" name="info-edit-button" type="button"></button>
+          <button class="profile__edit-btn" name="info-edit-button" type="button"></button>
         </div>
         <p class="profile__info-subtitle">Исследователь океана</p>
       </div>
-        <button class="profile__button" type="button"></button>
+        <button class="profile__btn-add" type="button"></button>
     </section>
     <section class="elements">
-      <ul class="elements__element">
-        <li class="elements__rectangle">
-          <img src="images/karachaevsk.png" alt="карачаевск" class="elements__mask-group">
-          <div class="elements__content">
-            <h2 class="elements__text">Карачаево-Черкессия</h2>
-            <button class="elements__like" type="button"> </button>
-          </div>
-          </li>
-            <li class="elements__rectangle">
-              <img src="images/gora.png" alt="гора" class="elements__mask-group">
-              <div class="elements__content">
-                <h2 class="elements__text">Гора</h2>
-              <button class="elements__like" type="button"></button>
-              </div>
-            </li>
-            <li class="elements__rectangle">
-              <img src="images/dombay.png" alt="домбай" class="elements__mask-group">
-                <div class="elements__content">
-              <h2 class="elements__text">Домбай</h2>
-              <button class="elements__like" type="button"> </button>
-                </div>
-            </li>
-            <li class="elements__rectangle">
-             <img src="images/gora.png" alt="Гора" class="elements__mask-group">
-                <div class="elements__content">
-             <h2 class="elements__text">Гора</h2>
-             <button class="elements__like" type="button"> </button>
-                </div>
-            </li>
-            <li class="elements__rectangle">
-              <img src="images/karachaevsk.png" alt="карачаевск" class="elements__mask-group">
-                <div class="elements__content">
-              <h2 class="elements__text">Карачаевск</h2>
-              <button class="elements__like" type="button"> </button>
-                </div>
-            </li>
-            <li class="elements__rectangle">
-              <img src="images/dombay.png" alt="домбай" class="elements__mask-group">
-                <div class="elements__content">
-              <h2 class="elements__text">Домбай</h2>
-              <button class="elements__like" type="button"> </button>
-                </div>
-            </li>
-        </ul>
+      <ul class="elements__container">
+      </ul>
     </section>
   </main>
   <footer class="footer">
       <p class="footer__text">&copy; 2020 Mesto Russia</p>
   </footer>
-  <section class="popup">
+  <section class="popup popup_type_user">
       <div class="popup__wrapper">
-      <button class="popup__close-button" type="button" name="close-button"></button>
-      <h3 class="popup__title">Редактировать профиль</h3>
+      <button class="popup__close-button popup__close_button_place" type="button" name="close-button"></button>
+      <h3 class="popup__title ">Редактировать профиль</h3>
       <form class="popup__container" name="container">
           <input class="popup__input popup__input_type_name" type="text" name="name" placeholder="Жак-Ив Кусто" value="Жак-Ив Кусто" required>
           <input class="popup__input popup__input_type_info" type="text" name="info" placeholder="Исследователь океана" value="Исследователь океана" required>
@@ -84,6 +42,36 @@
       </form>
       </div>
   </section>
+  <section class="popup popup_type_add_new_card">
+      <div class="popup__wrapper popup__wrapper-add-card ">
+          <button class="popup__close-button popup__close-button-card" type="button" name="close-button"></button>
+          <h3 class="popup__title popup__title-new-card">Новое место</h3>
+          <form class="popup__container popup__container-add-card" name="container">
+              <input class="popup__input popup__input_type_title" type="text" name="name" placeholder="Название" required>
+              <input class="popup__input popup__input_type_link" type="text" name="info" placeholder="Ссылка на картинку" required>
+              <button class="popup__submit-button popup__submit-button-add-card" type="submit" name="submit-button" value="">Создать</button>
+          </form>
+
+      </div>
+  </section>
+  <section class="popup popup_type_image">
+      <figure class="popup__figure">
+          <button type="button" class="popup__close-button popup__close_type_image"></button>
+          <img class="popup__image" src="#" alt="">
+          <figcaption class="popup__caption"></figcaption>
+      </figure>
+  </section>
+  <template class="card-template">
+      <li class="element">
+          <button type="button" class="element__delete-card"></button>
+          <img class="element__image" src="#" alt="">
+          <div class="element__description">
+              <h2 class="element__title"></h2>
+              <button type="button" class="element__like"></button>
+          </div>
+      </li>
+  </template>
+  <script src="./scripts/cards.js"></script>
   <script src="./scripts/index.js"></script>
 </body>
 </html>

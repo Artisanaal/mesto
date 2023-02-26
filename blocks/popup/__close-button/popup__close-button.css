@@ -11,6 +11,7 @@
     top: -40px;
     cursor: pointer;
     background-color: transparent;
+    transition: all .3s ease-in-out;
 }
 
 .popup__close-button:hover {

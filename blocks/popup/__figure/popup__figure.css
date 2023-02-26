@@ -1,0 +1,6 @@
+.popup__figure {
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    display: flex;
+}
