@@ -3,6 +3,7 @@
     flex-direction: column;
     min-width: 360px;
     position: relative;
+    transition: 0.3s;
 }
 
 @media screen and (max-width: 500px) {
